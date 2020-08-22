@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+
+/*Estilo personalizado
+
+Cuando vamos a reperir estilo, 
+podemos guardar una clase con los estilos, 
+para luego utilizarlo
+*/
+.encabezado {
+    @apply text-3xl font-bold text-gray-800 mx-2 mb-3
+}
+
+
+@tailwind utilities;
